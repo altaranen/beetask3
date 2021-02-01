@@ -1,0 +1,88 @@
+body {
+    background-color: #990909;
+}
+header {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.picture {
+    padding:1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+    background-color: #000000;
+    color: white;
+    
+}
+.item {
+    background-color:black;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav {
+    width: 285px;
+    height: 350px;
+    background: #7d0909;
+    float:left;
+    color: #e95b0d;
+    text-decoration: underline;
+    line-height: 2;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+main {
+    color:#ffffff; 
+    font-size: 18px;
+    font-weight: 600;
+    height: 350px;
+}
+
+aside {
+    width: 285px;
+    height: 350px;
+    background: #e3dddd;
+    float: right;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.aside_title {
+    text-align: center;
+    font-weight: 900;
+    background-color: #bdbdbd;
+}
+.aside_text {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+.line {
+    display: block;
+    box-sizing: border-box;
+    width: 117px;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto;
+    margin: 15px auto 15px auto;
+}
+
+footer {
+    width: 100%;
+    height: 25px;
+    background-color: #e95b11;
+    top: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
